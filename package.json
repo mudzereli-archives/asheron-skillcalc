@@ -1,0 +1,14 @@
+{
+  "name": "asheron-skillcalc",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Asheron's Call character planner",
+  "scripts": {
+    "start": "http-server src -p 8080 -c-1",
+    "deploy": "gh-pages -d src -b gh-pages"
+  },
+  "devDependencies": {
+    "gh-pages": "6.1.1",
+    "http-server": "^14.1.1"
+  }
+}
